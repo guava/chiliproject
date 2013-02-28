@@ -1,6 +1,7 @@
 <% if @statuses.empty? or rows.empty? %>
     <p><i><%=l(:label_no_data)%></i></p>
 <% else %>
+<%= image_tag bar_chart(data, rows, field_name) %>
 <table class="list">
 <thead><tr>
 <th style="width:25%"></th>

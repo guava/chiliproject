@@ -14,7 +14,6 @@ gem 'gravatarify', '~> 3.0.0'
 # Needed only on RUBY_VERSION = 1.8, ruby 1.9+ compatible interpreters should bring their csv
 gem "fastercsv", "~> 1.5.0", :platforms => [:ruby_18, :jruby, :mingw_18]
 gem "tzinfo", "~> 0.3.31" # Fixes #903. Not required for Rails >= 3.2
-gem 'googlecharts'
 
 group :test do
   gem 'shoulda', '~> 2.10.3'
